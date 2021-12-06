@@ -1,4 +1,7 @@
 .titulo-principal {
-  margin-bottom: 30px;
+  margin: 30px 0;
   text-align: center;
+}
+.container {
+  margin: 0 20px;
 }

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-      <h1 className="titulo-principal">Proyecto Final Desarrollo Colaborativo</h1>
+      <h1 className="titulo-principal">Proveedores</h1>
       <MostrarProveedores />
     </>
   );

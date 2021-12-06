@@ -3,33 +3,45 @@ import Table from "react-bootstrap/Table";
 
 function MostrarProveedores() {
   return (
-    <div>
+    <div className="container">
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Material</th>
+            <th>Teléfono</th>
+            <th>Correo electrónico</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Andree</td>
+            <td>Jimenez</td>
+            <td>Telas de mezclilla</td>
+            <td>477 102 1172</td>
+            <td>andree@mail.com</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Manuel</td>
+            <td>Garcia</td>
+            <td>Telas de algodon</td>
+            <td>477 332 1461</td>
+            <td>manuel@mail.com</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td colSpan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Cesar</td>
+            <td>Jamit</td>
+            <td>Herramientas de costura</td>
+            <td>477 766 4359</td>
+            <td>cesar@mail.com</td>
+          </tr>
+          <tr>
+            <td>Salomon</td>
+            <td>Romero</td>
+            <td>Cordones y decoraciones</td>
+            <td>477 257 8901</td>
+            <td>salomon@mail.com</td>
           </tr>
         </tbody>
       </Table>
